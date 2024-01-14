@@ -1,0 +1,68 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Header and Navigation */
+header {
+  background: #f8f8f8;
+  padding: 1rem 0;
+  border-bottom: 1px solid #ddd;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 1rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Main Content */
+main {
+  padding: 2rem;
+  text-align: center;
+}
+
+.catio img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+/* Footer */
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 600px) {
+  nav ul {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  nav ul li {
+    margin: 0.5rem 0;
+  }
+}

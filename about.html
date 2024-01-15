@@ -3,12 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Catio-Season</title>
+    <title>About/Contact Us - Catio-Season</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header>
-      <h1>Welcome to Catio-Season</h1>
+      <h1>About/Contact Us</h1>
       <nav>
         <ul>
           <li><a href="index.html">Home</a></li>
@@ -21,13 +21,23 @@
     </header>
     <main>
       <section>
-        <h2>Custom Built Catios in Calgary</h2>
+        <h2>About Us</h2>
         <p>
-          Welcome to Catio-Season, where we specialize in designing and building
-          custom catios for your feline friends. Browse our gallery to see our
-          work, learn more about us, read our blog, or request an appointment
-          for your own catio.
+          Learn more about our team, our passion for building catios, and our
+          commitment to quality.
         </p>
+      </section>
+      <section>
+        <h2>Contact Us</h2>
+        <form id="contact-form" method="post">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required /><br />
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required /><br />
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea><br />
+          <input type="submit" value="Send Message" />
+        </form>
       </section>
     </main>
     <footer>
